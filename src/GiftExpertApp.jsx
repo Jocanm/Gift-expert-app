@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
-import './app.css'
 import AddCategory from './components/AddCategory'
 import GiftGrid from './components/GiftGrid'
+import './app.css'
+import 'animate.css';
 
 const GiftExpertApp = () => {
 
-    const [series, setSeries] = useState(["One Punch"])
+    const [series, setSeries] = useState(["Mugiwara"])
 
     return (
         <div>

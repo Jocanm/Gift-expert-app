@@ -14,7 +14,7 @@ const GiftGrid = ({ category }) => {
 
     return (
         <>
-            <h3 className="font-bold text-2xl py-6"> {category} </h3>
+            <h3 className="font-bold text-2xl py-6 animate__animated animate__fadeInDown"> {category} </h3>
 
             { loading? 
             (<div className="flex items-center justify-center">
