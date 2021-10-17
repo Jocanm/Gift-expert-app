@@ -22,7 +22,6 @@ const GiftGrid = ({category}) => {
                 url: img.images?.downsized.url
             }
         })
-
         console.log(gifs)
         setImages(gifs)
 
