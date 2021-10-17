@@ -21,7 +21,7 @@ const AddCategory = ({setSeries}) => {
             <label htmlFor="serie">
                 <input type="text" 
                 name="serie" 
-                placeholder="Ingresa una serie"
+                placeholder="Ingresa una tema"
                 value={inputValue}
                 onChange={(e)=>setInputValue(e.target.value)}
                 />
