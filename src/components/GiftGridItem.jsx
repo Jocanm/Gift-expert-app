@@ -5,9 +5,9 @@ const GiftGridItem = ({title,url}) => {
     // console.log({id,title,url})
 
     return (
-        <div>
+        <div className="card shadow-xl p-0">
             <img src= {url} alt={title} />
-            <p>{ title }</p>
+            <p className="bg-gray-400">{ title }</p>
         </div>
     )
 }
