@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import AddCategory from './components/AddCategory'
 import GiftGrid from './components/GiftGrid'
+import { nanoid } from 'nanoid'
 import './app.css'
 import 'animate.css';
 
@@ -17,7 +18,7 @@ const GiftExpertApp = () => {
                 {
                     series.map(e=>(
                         <GiftGrid 
-                        key={e}
+                        key={nanoid()}
                         category={e}/>
                     ))
                 }
